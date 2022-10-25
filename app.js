@@ -4,9 +4,9 @@ let boton = document.querySelector('.boton')
 
 boton.addEventListener('click', () => {
     if (nombreUsuario.value === "" || msjUsuario.value === "") {
-        alert('Rellene los campos con la información.')
+        alert('Please fill all the inputs.')
     }
     else{
-        alert('Datos enviados.')
+        alert('Message sent 🔥')
     }
 })
